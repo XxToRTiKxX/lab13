@@ -81,7 +81,7 @@ img{
     flex-wrap: wrap;*/
     background-color: aliceblue;
     width: 25%;
-    height: 250px;
+    height: 300px;
     border: 4px black solid;
     border-left-width: 20px;
     border-right-style: double;
@@ -108,7 +108,7 @@ img{
     flex-wrap: wrap;*/
     background-color: aliceblue;
     width: 25%;
-    height: 250px;
+    height: 300px;
     border: 4px rgb(97, 5, 116) solid;
     border-left-width: 20px;
     border-right-style: double;
