@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #292929;
+    color: white;
+}
+.menu{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #292929;
+    opacity: 0.8;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    display: inline-block;
+    width: 100px;
+    padding: 20px 40px;
+    font-weight: lighter;
+}
+.menu a:hover{
+    background-color: #7c7a7a;
+    color: antiquewhite;
+}
+.header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 200px 0;
+    background-image: url(assets/space.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 58px;
+    background-attachment: fixed;
+}
+.header a{
+    padding: 12px 24px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #dddada;
+}
+.header a:hover{
+    background-color: #b1b1b2;
+}
+.header p{
+    margin: 45px 0;
+}
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #dddada;
+}
+
+.soft-skill, .hard-skill, .img {
+    border: 2px solid #dddada;
+
+    text-align: center;
+    background-color: #222; /
+}
+
+.soft-skill, .hard-skill {
+    height: 150px;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding-left: 0;
+}
+h2{
+    margin: 15px 15px;
+}
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 img {
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #dddada;
+}
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 img {
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #dddada;
+}
+.footer {
+    width: 100%;
+    background-color: black;
+    color: #dddada;
+}
