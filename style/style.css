@@ -49,14 +49,14 @@ body{
 .header p{
     margin: 45px 0;
 }
-.about-me {
+.skills {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     border: 1px solid black;
 }
 
-.about-me {
+.skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
